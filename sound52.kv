@@ -1,0 +1,36 @@
+<AppLayout>:
+    orientation: "vertical"
+    SongText:
+        size_hint: 1,0.35
+    PausePlay:
+        size_hint: 1,0.1
+    ScrollView:
+        orientation: "vertical"
+        PlayList:
+            orientation: "vertical"
+    AddDeleteShuffle:
+        size_hint: 1,0.2
+
+<SongText>:
+    Label:
+        id: songtitle
+        text: "Song Title"
+<PausePlay>:
+    Button:
+        id: play
+        text: "Play"
+    Button:
+        id: pause
+        text: "Pause"
+
+<PlayList>:
+  
+
+<AddDeleteShuffle>:
+    BoxLayout:
+        Button:
+            text: "Shuffle"
+        Button:
+            text: "Delete"
+        Button:
+            text: "Shuffle"

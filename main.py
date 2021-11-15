@@ -32,11 +32,11 @@ class SongText(BoxLayout):
 class AppLayout(BoxLayout):
     pass
 
-class Sound5App(App):
+class soundApp(App):
     def build(self):
         return AppLayout()
 
 
 
 if __name__ == "__main__":
-    Sound5App().run()
+    soundApp().run()

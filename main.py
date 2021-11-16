@@ -53,7 +53,7 @@ class SongText(BoxLayout):
 class AppLayout(BoxLayout):
     pass
 
-class Sound11App(App):
+class soundApp(App):
     def build(self):
         return WindowManger()
 
@@ -61,5 +61,5 @@ class Sound11App(App):
 
 
 if __name__ == "__main__":
-    Sound11App().run()
+    soundApp().run()
 
